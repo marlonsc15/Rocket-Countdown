@@ -8,11 +8,10 @@
     <title>Countdown</title>
 </head>
 <body>
+
     <img class="top" src="images/top-image.svg" alt="top-image">
     
     <main>
-        
-        
         <section class="section-count">
             <h1>READY TO LAUNCH IN...</h1>
             <div class="countdown">
@@ -34,13 +33,19 @@
                 </div>
             </div>
             <p>inscreva-se para saber mais sobre o lançamento</p>
-            <button><a href="#"> inscreva-se</a></button>
+            <button type="submit" onclick="openPopup()">inscreva-se</button>
+            <div  class="popup" id="popup">
+                <p>Nos passe seu e-mail para saber mais e para ser notificado no dia do lançamento!</p>
+                <input type="text" placeholder="e-mail" minlength="10" maxlength="30" ><br>
+                <button type="button" onclick="closePopup()">concluir</button>
+            </div>
         </section>
         <section>
             <img class="rocket" src="images/rocket.svg" alt="rocket">
         </section>
     </main>
-    <img class="bottom" src="images/bottom-image.svg" alt="bottom-image">
+
+    <footer><img class="bottom" src="images/bottom-image.svg" alt="bottom-image"></footer>
     
 </body>
     <script src="java.js"></script>
