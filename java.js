@@ -1,5 +1,5 @@
 const countdown = () => {
-    const countDate = new Date("jully 25, 2022 16:37:40").getTime();
+    const countDate = new Date("jully 30, 2022 19:00:00").getTime();
     const now = new Date().getTime();
     const gap = countDate - now; 
     
@@ -18,18 +18,24 @@ document.querySelector(".day").innerHTML = textDay;
 document.querySelector(".hour").innerHTML = ": "+textHour;
 document.querySelector(".minute").innerHTML = ": "+texMinute;
 document.querySelector(".second").innerHTML = ": "+textSecond;
+    
+};
+
+//rocket
+
 
 
 function decolar(){
-    remove(".rocket");
+    const rocket = document.getElementById("rocket");
+
+    rocket.classList.add("rocket")  
 }
-if(gap > countDate)
-       decolar();
-};
 
-
+// contador 
 
 setInterval(countdown, 1000);
+
+// popUp 
 
 const popup = document.getElementById("popup");
 
