@@ -44,7 +44,6 @@ main {
     justify-content: center;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 2%;
-    
 }
 
 .section-count {
@@ -85,18 +84,14 @@ section > h1 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.535);
 }
 
-
-
 section > img {
     width: 30em; 
-    
 }
 
 p {
     color: rgb(220, 216, 238);
     font-weight: 400;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.363);
-
 }
 
 button {
@@ -166,7 +161,6 @@ input{
 }
 
 #rocket {
-    
     position: absolute;
     top: 50px;
     left: 50px;
